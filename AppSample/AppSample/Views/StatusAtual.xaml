@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppSample.Views.StatusAtual">
+    <ContentPage.Content>
+
+        <StackLayout BackgroundColor="GreenYellow">
+            <Label TextColor="SandyBrown" Text="Seeding Precision App"             
+                HorizontalOptions="CenterAndExpand" />
+            <Label TextColor="SandyBrown" Text="Status Atual"
+                    HorizontalOptions="CenterAndExpand"/>
+            <Label TextColor="SandyBrown" x:Name="dtAtual" Text=" "
+                    HorizontalOptions="CenterAndExpand"/>
+        
+            <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+                <Button BackgroundColor="SandyBrown" x:Name="btnPH"  Text="PH - " Grid.Row="0" Grid.ColumnSpan="3" Grid.Column="1"/>
+                <Button BackgroundColor="SandyBrown" x:Name="btnTempSolo" Text="Temperatura do Solo - " Grid.Row="1" Grid.ColumnSpan="3" Grid.Column="1"/>
+                <Button BackgroundColor="SandyBrown" x:Name="btnTempAmb" Text="Temperatura Ambiente - " Grid.Row="2" Grid.ColumnSpan="3"  Grid.Column="1"/>
+                <Button BackgroundColor="SandyBrown" x:Name="btnLuminosidade" Text="Luminosidade - " Grid.Row="3" Grid.ColumnSpan="3" Grid.Column="1"/>
+                <Button BackgroundColor="SandyBrown" x:Name="btnHumidSolo" Text="Humidade do Solo - " Grid.Row="4" Grid.ColumnSpan="3" Grid.Column="1"/>
+                <Button BackgroundColor="SandyBrown" x:Name="btnHumidAmbiente" Text="Humidade Ambiente - " Grid.Row="5" Grid.ColumnSpan="3" Grid.Column="1"/>
+            </Grid> 
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
