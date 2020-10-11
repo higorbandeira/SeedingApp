@@ -17,10 +17,18 @@
 
   <ItemGroup>
     <Folder Include="Helpers\" />
-    <Folder Include="ViewModels\" />
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Views\Login.xaml.cs">
+      <DependentUpon>Login.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Views\Login.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Views\StatusAtual.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>

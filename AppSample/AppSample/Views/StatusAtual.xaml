@@ -4,12 +4,12 @@
              x:Class="AppSample.Views.StatusAtual">
     <ContentPage.Content>
 
-        <StackLayout BackgroundColor="GreenYellow">
-            <Label TextColor="SandyBrown" Text="Seeding Precision App"             
+        <StackLayout BackgroundColor="#8DC26F">
+            <Label TextColor="White" Text="Seeding Precision App"             
                 HorizontalOptions="CenterAndExpand" />
-            <Label TextColor="SandyBrown" Text="Status Atual"
+            <Label TextColor="White" Text="Status Atual"
                     HorizontalOptions="CenterAndExpand"/>
-            <Label TextColor="SandyBrown" x:Name="dtAtual" Text=" "
+            <Label TextColor="White" x:Name="dtAtual" Text=" "
                     HorizontalOptions="CenterAndExpand"/>
         
             <Grid>
@@ -23,12 +23,12 @@
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-                <Button BackgroundColor="SandyBrown" x:Name="btnPH"  Text="PH - " Grid.Row="0" Grid.ColumnSpan="3" Grid.Column="1"/>
-                <Button BackgroundColor="SandyBrown" x:Name="btnTempSolo" Text="Temperatura do Solo - " Grid.Row="1" Grid.ColumnSpan="3" Grid.Column="1"/>
-                <Button BackgroundColor="SandyBrown" x:Name="btnTempAmb" Text="Temperatura Ambiente - " Grid.Row="2" Grid.ColumnSpan="3"  Grid.Column="1"/>
-                <Button BackgroundColor="SandyBrown" x:Name="btnLuminosidade" Text="Luminosidade - " Grid.Row="3" Grid.ColumnSpan="3" Grid.Column="1"/>
-                <Button BackgroundColor="SandyBrown" x:Name="btnHumidSolo" Text="Humidade do Solo - " Grid.Row="4" Grid.ColumnSpan="3" Grid.Column="1"/>
-                <Button BackgroundColor="SandyBrown" x:Name="btnHumidAmbiente" Text="Humidade Ambiente - " Grid.Row="5" Grid.ColumnSpan="3" Grid.Column="1"/>
+                <Button BackgroundColor="#4caf50" x:Name="btnPH"  Text="PH - " Grid.Row="0" Grid.ColumnSpan="3" Grid.Column="1"/>
+                <Button BackgroundColor="#4caf50" x:Name="btnTempSolo" Text="Temperatura do Solo - " Grid.Row="1" Grid.ColumnSpan="3" Grid.Column="1"/>
+                <Button BackgroundColor="#4caf50" x:Name="btnTempAmb" Text="Temperatura Ambiente - " Grid.Row="2" Grid.ColumnSpan="3"  Grid.Column="1"/>
+                <Button BackgroundColor="#4caf50" x:Name="btnLuminosidade" Text="Luminosidade - " Grid.Row="3" Grid.ColumnSpan="3" Grid.Column="1"/>
+                <Button BackgroundColor="#4caf50" x:Name="btnHumidSolo" Text="Humidade do Solo - " Grid.Row="4" Grid.ColumnSpan="3" Grid.Column="1"/>
+                <Button BackgroundColor="#4caf50" x:Name="btnHumidAmbiente" Text="Humidade Ambiente - " Grid.Row="5" Grid.ColumnSpan="3" Grid.Column="1"/>
             </Grid> 
         </StackLayout>
     </ContentPage.Content>
