@@ -29,6 +29,7 @@
                 <Button BackgroundColor="#4caf50" x:Name="btnLuminosidade" Text="Luminosidade - " Grid.Row="3" Grid.ColumnSpan="3" Grid.Column="1"/>
                 <Button BackgroundColor="#4caf50" x:Name="btnHumidSolo" Text="Humidade do Solo - " Grid.Row="4" Grid.ColumnSpan="3" Grid.Column="1"/>
                 <Button BackgroundColor="#4caf50" x:Name="btnHumidAmbiente" Text="Humidade Ambiente - " Grid.Row="5" Grid.ColumnSpan="3" Grid.Column="1"/>
+                <Button x:Name="BtnMap" Text="Localizar Equipamento" BorderColor="#8DC26F" BackgroundColor="#4caf50" Grid.Row="6" Grid.ColumnSpan="3" Grid.Column="1"/>
             </Grid> 
         </StackLayout>
     </ContentPage.Content>

@@ -33,6 +33,10 @@ namespace AppSample.Views
             string login = LbLogin.Text;
             string password = LbPassword.Text;
 
+            // DEV CREDENTIALS
+            //string login = "demo@gmail.com";
+            //string password = "Test1234!";
+
             await DandoUmTempo(5000);
 
             LoginService service = new LoginService();

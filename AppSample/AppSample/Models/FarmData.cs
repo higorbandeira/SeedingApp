@@ -20,35 +20,35 @@ namespace AppSample.Models
     public class HumidAmbiente
     {
         public string type { get; set; }
-        public int value { get; set; }
+        public double value { get; set; }
         public Metadata metadata { get; set; }
     }
 
     public class HumidSolo
     {
         public string type { get; set; }
-        public int value { get; set; }
+        public double value { get; set; }
         public Metadata metadata { get; set; }
     }
 
     public class Luminosidade
     {
         public string type { get; set; }
-        public int value { get; set; }
+        public double value { get; set; }
         public Metadata metadata { get; set; }
     }
 
     public class TempAmbiente
     {
         public string type { get; set; }
-        public int value { get; set; }
+        public double value { get; set; }
         public Metadata metadata { get; set; }
     }
 
     public class TempSolo
     {
         public string type { get; set; }
-        public int value { get; set; }
+        public double value { get; set; }
         public Metadata metadata { get; set; }
     }
 

@@ -8,3 +8,8 @@
 /AppSample/AppSample.Android/obj
 /AppSample/AppSample.iOS/bin/iPhone/Debug
 /AppSample/AppSample.iOS/obj
+*.dll
+*.json
+*.pdb
+*.pubxml
+*.user
