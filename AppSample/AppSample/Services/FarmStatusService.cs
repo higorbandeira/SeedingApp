@@ -9,7 +9,7 @@ namespace AppSample.Services
     {
         public List<MyArray> GetAtualStatus()
         {
-            var client = new RestClient("http://104.215.116.161:1026/v2/entities");
+            var client = new RestClient("http://143.107.145.24:1026/v2/entities");
             client.Timeout = -1;
             var request = new RestRequest(Method.GET);
             request.AddHeader("Accept", "application/json");

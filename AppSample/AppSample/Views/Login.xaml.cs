@@ -30,17 +30,19 @@ namespace AppSample.Views
             //ativa o ActivityIndicator
             this.IsBusy = true;
 
-            string login = LbLogin.Text;
-            string password = LbPassword.Text;
+            //string login = LbLogin.Text;
+            //string password = LbPassword.Text;
 
             // DEV CREDENTIALS
-            //string login = "demo@gmail.com";
-            //string password = "Test1234!";
+            string login = "test";
+            string password = "test";
 
             await DandoUmTempo(5000);
 
-            LoginService service = new LoginService();
-            string result = service.Login(login, password);
+            //LoginService service = new LoginService();
+            //string result = service.Login(login, password);
+            string result = "";
+            if(login == "test" && password == "test") { result = "Success"; }
 
             if (!string.IsNullOrEmpty(result) && result == "Success")
             {

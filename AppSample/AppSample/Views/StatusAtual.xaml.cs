@@ -16,11 +16,11 @@ namespace AppSample.Views
             FarmStatusService farmStatusService = new FarmStatusService();
             List<MyArray> status = farmStatusService.GetAtualStatus();
             btnPH.Text += status[0].pH.value;
-            btnTempSolo.Text += status[0].tempSolo.value;
-            btnTempAmb.Text += status[0].tempAmbiente.value;
-            btnLuminosidade.Text += status[0].luminosidade.value;
-            btnHumidSolo.Text += status[0].humidSolo.value;
-            btnHumidAmbiente.Text += status[0].humidAmbiente.value;
+            btnTempSolo.Text += status[0].tempSolo.value + "°";
+            btnTempAmb.Text += status[0].tempAmbiente.value + "°";
+            btnLuminosidade.Text += status[0].luminosidade.value + "%";
+            btnHumidSolo.Text += status[0].humidSolo.value + "%";
+            btnHumidAmbiente.Text += status[0].humidAmbiente.value + "%";
 
             if(status[0].tempSolo.value > 15 || status[0].tempAmbiente.value > 15)
             {
