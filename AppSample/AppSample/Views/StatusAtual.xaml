@@ -15,6 +15,7 @@
             <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
@@ -30,6 +31,7 @@
                 <Button BackgroundColor="#4caf50" x:Name="btnHumidSolo" Text="Humidade do Solo - " Grid.Row="4" Grid.ColumnSpan="3" Grid.Column="1"/>
                 <Button BackgroundColor="#4caf50" x:Name="btnHumidAmbiente" Text="Humidade Ambiente - " Grid.Row="5" Grid.ColumnSpan="3" Grid.Column="1"/>
                 <Button x:Name="BtnMap" Text="Localizar Equipamento" BorderColor="#8DC26F" BackgroundColor="#4caf50" Grid.Row="6" Grid.ColumnSpan="3" Grid.Column="1"/>
+                <BoxView BindingContext="Localizar Equipamento" Color="CornflowerBlue" CornerRadius="10" WidthRequest="160" HeightRequest="160" VerticalOptions="Center"  HorizontalOptions="Center" Grid.Row="7" Grid.ColumnSpan="3" Grid.Column="0" />
             </Grid> 
         </StackLayout>
     </ContentPage.Content>
